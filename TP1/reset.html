@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            outline-color: red;
+            outline-width: 10px;
+        }
+        input:focus{
+            color: grey;
+        }
+    </style>
+</head>
+<body onunload="confirm('Vous voullez quiter')">
+    <a href="./etudiant.html">etudiant</a>
+    <form action="#" onreset="myFunction()">
+    
+      <label for="">Entrez nom: </label>  <input type="text" onfocus="alert('Entrez votre nom')">
+      <input type="reset">
+        
+    </form>
+    <img src="dioukou.jpg" alt="" onerror="alert('Erreur image')">
+    <script>
+        function myFunction(){
+            alert("Le formulaire a été réanitialisé avec succes!");
+            console.log(this);
+        }
+        myFunction.call(3)
+    </script>
+</body>
+</html>

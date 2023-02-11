@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LIVE USER FILTER</title>
+</head>
+<body>
+    <div class="global-container">
+        <nav class="nav-side">
+            <div class="nav-logo">
+                <img src="images/logo.jpg" alt="">
+                <h1>GL3</h1>
+            </div>
+
+            <a href="#" class="block-link">
+                <img src="images/graphique-histogramme.svg" alt="">
+                <span class="nav-links">Dashboard</span>
+            </a>
+            <a href="#" class="block-link">
+                <img src="images/avion-en-papier.svg" alt="">
+                <span class="nav-links">Message</span>
+            </a>
+            <a href="#" class="block-link active">
+                <img src="images/base-de-donnees.svg" alt="">
+                <span class="nav-links">Base de donnees</span>
+            </a>
+            <a href="#" class="block-link">
+                <img src="images/calendrier.svg" alt="">
+                <span class="nav-links">Calendrier</span>
+            </a>
+        </nav>
+
+        <div class="main-content">
+            <div class="input-control">
+                <label for="search">
+                    <img src="images/chercher.svg" alt="">
+                </label>
+                <input type="text" id="search" placeholder="Chercher un utilisateur" autocomplete="off">
+            </div>
+            <h2 class="main-title">Resultats de la base de données</h2>
+            <!-- L'ENTETE DE NOTRE TABLEAU -->
+            <div class="table">
+                <h3 class="table-title">Nom</h3>
+                <h3 class="table-title">Email</h3>
+                <h3 class="table-title">Numero</h3>
+                <h3 class="table-title">Moyenne Generale</h3>
+                <h3 class="table-title">Mention</h3>
+            </div>
+            <!-- CONTENUE DE LA TABLE  QUI SERA INJECTER GRACE AU JS-->
+            <div class="table-results">
+                
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

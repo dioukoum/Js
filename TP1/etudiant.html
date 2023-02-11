@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        const etudiant=[
+                {
+                nom:'Boi',
+                notes:[10,20,18,19,18]
+                },
+                {
+                nom:'Leh',
+                notes:[17,20,13,14,12]
+                },
+                {
+                nom:'Ladji',
+                notes:[12,05,11,19,12]
+                },
+                {
+                nom:'Man',
+                notes:[12,16,11,17,13]
+                },
+                {
+                nom:'Lah',
+                notes:[12,10,10,10,02]
+                },
+                {
+                nom:'Lavieille',
+                notes:[02,11,11,07,12]
+                }
+            ]
+
+            
+            
+            let i = 0, j=0, note=0
+            for (i=0; i<etudiant.length; i++){
+                   for(j=0; j<etudiant[i].notes.length; j++){
+                          note += etudiant[i].notes[j]
+               }
+                etudiant[i].moyenne = note/etudiant[i].notes.length
+                note = 0
+            }
+            console.log(etudiant);
+            
+    </script>
+
+</body>
+</html>

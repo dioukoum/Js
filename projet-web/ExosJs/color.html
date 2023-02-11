@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="range">
+        <input type="color">
+    </div>
+
+    <script>
+        let range = document.querySelector('input[type=range]')
+        let coleur = document.querySelector('input[type=color]')
+        
+        range.addEventListener('change', ()=>{
+            console.log(range.value);
+            let hex = ['a','b','c','d','e','f']
+            let cumulus = ''
+            for(let i=0; i<hex.length; i+=2){
+            let rand1 = Math.floor(Math.random()*7)
+            let rand = Math.floor(Math.random()*10)
+            cumulus+=rand+hex[rand1]
+        }
+        console.log(cumulus);
+        document.querySelector('html').style.background=`#${cumulus}`
+        cumulus=''
+        })
+        coleur.addEventListener('change',(e)=>{
+            document.querySelector('html').style.background=e.target.value
+        })
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    flex-basis: 100%;
+}
+
+.sidebar{
+    flex-basis: 25%;
+}
+article{
+    flex-basis: 50%;
+}
+footer{
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 700px){
+    article{
+        flex-basis: 100%;
+    }
+    .sidebar{
+        flex-basis: 50%;
+        order: 1;
+    }
+    footer{
+        flex-basis: 100%;
+        order: 2;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sidebar{
+        flex-basis: 100%;
+    }
+}

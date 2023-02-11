@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+    <style>
+        body{
+            overflow: hidden;
+        }
+        #elt-1-h1{
+            animation-name: sleiden;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+        }
+        @keyframes sleiden{
+            0%{
+                margin-left: 100%;
+                width: 300%;
+            }
+            100%{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="elt-1-h1">Regarder moi bouger</h1>
+    <p id="elt-2-p1">Un exemple de d'animation css pour faire deplacer un element <code>H1</code> sur une page.</p>
+    <p id="elt-3-p2">Voici les evenement relatifs aux animations: </p>
+    <ul id="elt-4-ul">
+
+    </ul>
+
+    <script>
+        let element = document.getElementById('elt-1-h1')
+
+        element.addEventListener('animationstart', listener, false)
+        element.addEventListener('animationend', listener, false)
+        element.addEventListener('animationiteration', listener, false)
+        element.classList= "sleiden"
+
+        function listener(event){
+            let l = document.createElement('li')
+            switch(event.type){
+                case "animationstart":
+                    l.innerHTML = "Debut: duree ecoulee: "+ event.elapsedTime+'s'
+                    break
+                case "animationiteration":
+                    l.innerHTML = "Nouvelle boucle demaree a: "+ event.elapsedTime+'s'
+                    break
+                case "animationend":
+                    l.innerHTML= "Fin: duree ecoulee: "+event.elapsedTime+'s'
+                    break
+            }
+            document.getElementById('elt-4-ul').appendChild(l);
+        }
+    </script>
+</body>
+</html>

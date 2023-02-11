@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="labels">
+            <span>Chiffre-normal</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>Chiffre-romain</span>
+        </p>
+        <p class="inputs">
+            <input type="number" name="" id="number">
+            <span><img src="./assets/echanger.svg" alt="" width="20" height="10"></span>
+            <input type="text" name="" id="romain">
+        </p>
+        
+    </div>
+    <script>
+        number.addEventListener('keyup', (e)=>{
+            let romanLetter={
+                "M": 1000,
+                "CM": 900,
+                "D": 500,
+                "CD": 400,
+                "C": 100,
+                "XC": 90,
+                "L": 50,
+                "X": 10,
+                "V": 5,
+                "IV": 4,
+                "I": 1
+        }
+        let cumulus =''
+        let num = number.value
+        for(const key in romanLetter){
+            let keyValue = romanLetter[key]
+            while(keyValue <= num){
+                num-=keyValue
+                cumulus+=key
+            }
+        }
+        return romain.value=cumulus
+    })
+    //     const number = document.getElementById('number')
+    //     const romain = document.getElementById('romain')
+    //    function romanFunc(num){
+    //        var chiffreRomain = {
+    //         "M": 1000,
+    //         "CM": 900,
+    //         "D": 500,
+    //         "CD": 400,
+    //         "C": 100,
+    //         "XC": 90,
+    //         "L": 50,
+    //         "X": 10,
+    //         "V": 5,
+    //         "IV": 4,
+    //         "I": 1
+    //     }
+    //     var cumules= ''
+        
+    //     for(const key in chiffreRomain){
+    //         const keyValue = chiffreRomain[key]
+    //         while(keyValue <= num){
+    //             num-=keyValue
+    //             cumules+= key
+    //         }
+    //     }
+    //     return cumules
+    //    }
+    //    var rom = romanFunc(9)
+    //    console.log(rom);
+    </script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+    {
+        "results":[
+            {
+                "name":{
+                    "first":"Dioukou Moussa",
+                    "last":"Sissoko"
+                },
+                "email":"dioukoum125@gmail.com",
+                "phone":"+223 77 40 38 82",
+                "picture":"./etudiants/dioukou.jpg",
+                "moyenne":14.84,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Awa",
+                    "last":"Doumbia"
+                },
+                "email":"awadoumbia@gmail.com",
+                "phone":"+223 74 76 48 80",
+                "picture":"./etudiants/awa-doumbia.jpg",
+                "moyenne":8.9,
+                "mention":"MEDIOCRE"
+            },
+            {
+                "name":{
+                    "first":"Sekou",
+                    "last":"Keita"
+                },
+                "email":"keita.sekou@gmail.com",
+                "phone":"+223 90 36 37 57",
+                "picture":"./etudiants/utilisateur.svg",
+                "moyenne":11,
+                "mention":"PASSABLE"
+            },
+            {
+                "name":{
+                    "first":"Fatoumata Koudia",
+                    "last":"Tall"
+                },
+                "email":"tall.koudia@gmail.com",
+                "phone":"+223 78 03 20 08",
+                "picture":"./etudiants/tall.jpg",
+                "moyenne":10,
+                "mention":"PASSABLE"
+            },
+            {
+                "name":{
+                    "first":"Mohamed",
+                    "last":"Dicko"
+                },
+                "email":"dicko.mohamed@gmail.com",
+                "phone":"+223 71 93 96 56",
+                "picture":"./etudiants/dicko.jpg",
+                "moyenne":16.5,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Générale",
+                    "last":"Yattara"
+                },
+                "email":"g.yatt@gmail.com",
+                "phone":"+223 75 52 16 25",
+                "picture":"./etudiants/g-yatt.jpg",
+                "moyenne":15.3,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Ibrahim",
+                    "last":"Sy"
+                },
+                "email":"sy.ib@gmail.com",
+                "phone":"+223 83 49 66 74",
+                "picture":"./etudiants/ibrahim-sy.jpg",
+                "moyenne":16,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Kalifa",
+                    "last":"Sanogo"
+                },
+                "email":"sanogo.kalifa@gmail.com",
+                "phone":"+223 78 32 70 30",
+                "picture":"./etudiants/kalifa.jpg",
+                "moyenne":13,
+                "mention":"ASSEZ BIEN"
+            },
+            {
+                "name":{
+                    "first":"Mohamed Aminata",
+                    "last":"Koné"
+                },
+                "email":"kone.mo@gmail.com",
+                "phone":"+223 92 14 88 99",
+                "picture":"./etudiants/kone-mohamed.jpg",
+                "moyenne":15,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Mahoua",
+                    "last":"Traoré"
+                },
+                "email":"tra.mahoua@gmail.com",
+                "phone":"+223 97 69 01 12",
+                "picture":"./etudiants/mahoua.jpg",
+                "moyenne":11,
+                "mention":"PASSABLE"
+            },
+            {
+                "name":{
+                    "first":"Mariam Kourouma",
+                    "last":"Sissoko"
+                },
+                "email":"sis.krou.maria@gmail.com",
+                "phone":"+223 67 81 56 59",
+                "picture":"./etudiants/mariam-kourouma.jpg",
+                "moyenne":18,
+                "mention":"EXCELLENT"
+            },
+            {
+                "name":{
+                    "first":"Aboubacar",
+                    "last":"Mariko"
+                },
+                "email":"mariko.abou@gmail.com",
+                "phone":"+223 73 99 05 90",
+                "picture":"./etudiants/mariko.jpg",
+                "moyenne":17,
+                "mention":"TRES BIEN"
+            },
+            {
+                "name":{
+                    "first":"Oumar",
+                    "last":"Bah"
+                },
+                "email":"bah.oumar@gmail.com",
+                "phone":"+223 70 22 18 36",
+                "picture":"./etudiants/oumar-bah.jpg",
+                "moyenne":15.50,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Sounkalo",
+                    "last":"Sidibé"
+                },
+                "email":"sidibe.soukalo@gmail.com",
+                "phone":"+223 82 86 32 06",
+                "picture":"./etudiants/soukalo.jpg",
+                "moyenne":16.34,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Tiemoko",
+                    "last":"Samake"
+                },
+                "email":"samake.tie@gmail.com",
+                "phone":"+223 66 87 63 61",
+                "picture":"./etudiants/tiemoko-samake.jpg",
+                "moyenne":14,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Younouss",
+                    "last":"Bore"
+                },
+                "email":"bore.y@gmail.com",
+                "phone":"+223 66 03 53 00",
+                "picture":"./etudiants/younouss.jpg",
+                "moyenne":9,
+                "mention":"MEDIOCRE"
+            },
+            {
+                "name":{
+                    "first":"Soumy",
+                    "last":"Boss"
+                },
+                "email":"boss.soumy@gmail.com",
+                "phone":"+223 66 03 53 00",
+                "picture":"./etudiants/soumy.jpg",
+                "moyenne":15,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"homme Bizarre",
+                    "last":"Aya"
+                },
+                "email":"bizarre@gmail.com",
+                "phone":"+223 75 95 93 17",
+                "picture":"./etudiants/utilisateur.svg",
+                "moyenne":15.15,
+                "mention":"BIZARRE"
+            },
+            {
+                "name":{
+                    "first":"Maimouna",
+                    "last":"Diakite"
+                },
+                "email":"diakite.mai@gmail.com",
+                "phone":"+223 94 85 41 59",
+                "picture":"./etudiants/mai.jpg",
+                "moyenne":17,
+                "mention":"TRES BIEN"
+            },
+            {
+                "name":{
+                    "first":"Badiallo Blache Neige",
+                    "last":"Keita"
+                },
+                "email":"b.keita@gmail.com",
+                "phone":"+223 92 77 88 66",
+                "picture":"./etudiants/badiallo.jpg",
+                "moyenne":16.90,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Mamoutou Boss",
+                    "last":"Yalcouye"
+                },
+                "email":"m.yalcouye@gmail.com",
+                "phone":"+223 92 08 39 43",
+                "picture":"./etudiants/mamoutou.jpg",
+                "moyenne":16,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Fatimata",
+                    "last":"Thiam"
+                },
+                "email":"f.thiam@gmail.com",
+                "phone":"+223 70 10 58 82",
+                "picture":"./etudiants/utilisateur.svg",
+                "moyenne":15.03,
+                "mention":"BIEN"
+            },
+            {
+                "name":{
+                    "first":"Awa",
+                    "last":"Diane"
+                },
+                "email":"a.diane@gmail.com",
+                "phone":"+223 92 08 75 83",
+                "picture":"./etudiants/awa-diane.jpg",
+                "moyenne":10,
+                "mention":"PASSABLE"
+            },
+            {
+                "name":{
+                    "first":"Hawa",
+                    "last":"Zoulou"
+                },
+                "email":"zoulou@gmail.com",
+                "phone":"+223 70 58 47 83",
+                "picture":"./etudiants/zoulou.jpg",
+                "moyenne":5,
+                "mention":"A SUIVRE"
+            }
+        ]
+    }

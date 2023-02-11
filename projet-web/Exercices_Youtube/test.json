@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nom":"Sissoko",
+        "prenom": "Dioukou Moussa",
+        "age": 22,
+        "statut": "etudiant"
+    },
+    {
+        "id": 2,
+        "nom":"Sissoko",
+        "prenom": "Terena Moussa",
+        "age": 24,
+        "statut": "etudiant"
+    },
+    {
+        "id": 3,
+        "nom":"Sissoko",
+        "prenom": "Makan",
+        "age": 25,
+        "statut": "etudiant"
+    }
+]

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.d10ae3cde4f211f80f53e946249aa9dc?rik=GVMSZBFTRqHWGw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(0,200,0);
+    width: 100vw;
+}
+ul li{
+    padding: 15px;
+    margin: 5px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}

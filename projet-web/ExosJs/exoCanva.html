@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANVAS</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas{
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="dessin" width="600" height="400">
+       
+
+    <script>
+        const monCanvas= document.getElementById('dessin')
+       var context= monCanvas.getContext('2d');
+    //    context.strokeStyle='green'
+       context.fillStyle='green'
+       context.lineWidth=2
+       context.moveTo(40,80)
+        context.lineTo(80,40)
+        context.lineTo(120,80)
+        context.lineTo(40,80)
+        context.closePath()
+        
+        context.moveTo(60,80)
+        context.strokeStyle='yellow'
+        context.lineTo(60,120)
+        context.lineTo(100,120)
+        context.lineTo(100,80)
+
+        context.moveTo(70,100)
+        context.lineTo(70,120)
+        context.lineTo(85,120)
+        context.lineTo(85,100)
+        context.lineTo(68,100)
+        
+        context.stroke()
+
+        context.beginPath()
+        context.strokeStyle='LimeGreen'
+        context.lineWidth=5
+        context.moveTo(20,120)
+        context.arcTo(20, 30, 160, 120, 20);
+       
+       context.stroke()
+
+       context.beginPath();
+       context.moveTo(300,40)
+       context.fillStyle='green'
+       context.lineWidth=25
+       context.strokeStyle='skyblue'
+       context.lineTo(400,120)
+       context.lineTo(300,120)
+       context.lineTo(300,40)
+       context.closePath();
+       context.stroke()
+       
+        context.beginPath()
+        context.arc(200,200,90,0,Math.PI*2,false)
+        context.lineWidth=2
+        context.stroke()
+    </script>
+</body>
+</html>

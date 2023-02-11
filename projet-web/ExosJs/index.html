@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cubebox">
+        <div class="cube"></div>
+    </div>
+    <div class="nav">
+        <div class="navbar">
+            <h2><img src="./code-daffichage.svg" width="20" height="20" alt=""><span style="font-size: 30px;"> S</span>issoko <span>D</span>ioukou <span>M</span></h2>
+            <ul>
+                <li class="item">
+                    <p>Projet</p>
+                    <div class="items active"></div>
+                </li>
+                <li class="item">
+                    <p>Propos</p> 
+                    <div class="items"></div>
+                </li>
+                <li class="item">
+                    <p>Contacts</p> 
+                    <div class="items"></div>
+                </li>
+            </ul>
+        </div>
+       
+    </div>
+    <div class="main">
+        <h1 contenteditable="true">Bienvenue sur le site de Dioukou Moussa</h1>
+        <form action="">
+            <table>
+                <div class="forms">
+                    <h2>Connexion</h2>
+                    <div class="inputs">
+                    
+                        <tr>
+                            <td>Nom:</td>
+                        </tr>
+                        <tr>
+                            <td class="input"><input type="text" placeholder="Votre nom" required pattern="/[a-z]"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                        </tr>
+                        <tr>
+                            <td class="input"><input type="email" placeholder="Votre email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Mot de passe:</td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" placeholder="Votre mot de passe" required></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;"><button>Connexion</button></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><span style="font-size: .8rem; color: #000;">Vous n'avez pas de compte ?<span style="color: orange; text-decoration: underline; cursor: pointer;"> inscrivez-vous ici</span></span></td>
+                        </tr>
+                    </div>
+                    
+                </div>
+            </table>
+            
+        </form>
+        <!-- <input type="file" id="FS"> -->
+    </div>
+    <footer>
+        <div class="toggle">
+            <div class="cercle"></div>
+        </div>
+        <p>&COPY;copyright Dioukou Moussa Sissoko 2022</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
